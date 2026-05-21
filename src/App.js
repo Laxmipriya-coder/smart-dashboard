@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.jsx
+import React from "react";
+import { Container, Box } from "@mui/material";
+import OrganizationOverview from "./components/OrganizationOverview";
+import ProductUpdates from "./components/ProductUpdates";
+import AssetHealthSummary from "./components/AssetHealthSummary";
+import DeviceHealthAnalytics from "./components/DeviceHealthAnalytics";
+import BuildingMap from "./components/BuildingMap";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container maxWidth="xl" sx={{ py: 4 }}>
+      <Box sx={{ display: "flex", flexDirection: "column", gap: 6 }}>
+        {/* Organization Overview */}
+        <OrganizationOverview />
+
+        {/* Product Updates */}
+        <ProductUpdates />
+
+        {/* Asset Health Summary */}
+        <AssetHealthSummary />
+
+        {/* Device Health Analytics */}
+        <DeviceHealthAnalytics />
+
+        {/* Building Map */}
+        <BuildingMap />
+      </Box>
+    </Container>
   );
 }
 
