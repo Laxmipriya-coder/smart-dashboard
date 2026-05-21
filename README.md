@@ -5,7 +5,7 @@ A responsive admin dashboard for monitoring buildings, assets, users, and device
 ---
 
 ## 🖥️ Live Demo
-[View Live Dashboard](https://your-live-link-here.vercel.app)
+[View Live Dashboard](https://smart-dashboard-jade.vercel.app/)
 
 ---
 
