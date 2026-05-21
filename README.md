@@ -36,6 +36,19 @@ A responsive admin dashboard for monitoring buildings, assets, users, and device
 ```bash
 git clone https://github.com/Laxmipriya-coder/smart-dashboard.git
 
+2.Navigate into the project folder
+cd smart-dashboard
+
+3.Install dependencies
+npm install
+
+4.Run the app
+npm start
+
+5.Open in browser
+http://localhost:3000
+
+✅ Your dashboard should now be running locally.
 
 
 ## 📷 Screenshots
@@ -54,3 +67,20 @@ git clone https://github.com/Laxmipriya-coder/smart-dashboard.git
 
 **Interactive Building Map**
 ![Building Map](./screenshots/building-map.png)
+
+
+Deployment
+
+This app can be deployed using Vercel, Netlify, or GitHub Pages.
+
+Recommended: Vercel for React projects.
+Live link example: https://smart-dashboard-jade.vercel.app/
+
+
+Technologies Used
+React.js (Create React App)
+Material-UI
+Leaflet.js + OpenStreetMap
+Recharts (for charts)
+JavaScript / HTML / CSS
+
